@@ -22,8 +22,8 @@ const NoteCard = ({title,date,content,tags, isPinned,onPinNote}) => {
         
         <div className="flex items-center justify-between">
             <div>
-                <h6 className='text-sm font-medium'>{title}</h6>
-                <span className="text-xs text-slate-500">{date}</span>
+                <h6 className='text-sm font-medium text-slate-800'>{title}</h6>
+                <span className="text-xs text-slate-600">{date}</span>
             </div>
            
         </div>
