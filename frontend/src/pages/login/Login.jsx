@@ -30,7 +30,7 @@ const Login = () => {
     
         setError("");
         try {
-            const response = await fetch('http://localhost:3000/loginuser', {
+            const response = await fetch('https://projectapp-z66u.onrender.com/loginuser', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

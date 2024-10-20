@@ -13,7 +13,7 @@ const UpdateComponent = () => {
     const handlesubmit = async(e) =>{
         e.preventDefault()
         try {
-            const response = await fetch("http://localhost:3000/updateNotes",{
+            const response = await fetch("https://projectapp-z66u.onrender.com/updateNotes",{
                 method  :"POST",
                 headers : {
                     'Content-Type' : "application/json"

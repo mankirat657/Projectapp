@@ -37,7 +37,7 @@ const ProfilePicSetter = () => {
     formData.append('profilePic', file);
 
     try {
-      const response = await fetch('http://localhost:3000/upload', {
+      const response = await fetch('https://projectapp-z66u.onrender.com/upload', {
         method: 'POST',
         credentials: 'include', 
         body: formData,
@@ -58,7 +58,7 @@ const ProfilePicSetter = () => {
 
   const fetchProfilePic = async () => {
     try {
-      const response = await fetch('http://localhost:3000/profilePic', {
+      const response = await fetch('https://projectapp-z66u.onrender.com/profilePic', {
         method: 'GET',
         credentials: 'include', 
       });

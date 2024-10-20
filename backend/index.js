@@ -14,7 +14,7 @@ const upload = multer({ storage : storage })
 const path = require('path')
 const _dirname1 = path.resolve();
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://projectapp-z66u.onrender.com',
     credentials: true 
 }));
 app.use(express.json());

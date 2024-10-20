@@ -9,7 +9,7 @@ const Modall = ({ isOpen, onClose, refreshNotes }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/createNotes', {
+            const response = await fetch('https://projectapp-z66u.onrender.com/createNotes', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

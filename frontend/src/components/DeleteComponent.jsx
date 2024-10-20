@@ -11,7 +11,7 @@ const DeleteComponent = () => {
     const handledeleteClick = async(e) =>{
         e.preventDefault()
         try {
-            const response = await fetch('http://localhost:3000/deleteNotes',{
+            const response = await fetch('https://projectapp-z66u.onrender.com/deleteNotes',{
                 method : "POST",
                 headers : {
                     'Content-Type' : 'application/json',

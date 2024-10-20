@@ -33,7 +33,7 @@ const Navbar = () => {
     const handlelogout = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("http://localhost:3000/logout", {
+            const response = await fetch("https://projectapp-z66u.onrender.com/logout", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

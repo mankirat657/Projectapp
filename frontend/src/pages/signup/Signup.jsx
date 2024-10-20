@@ -38,7 +38,7 @@ const Signup = () => {
         setError('');
 
         try {
-            const response = await fetch('http://localhost:3000/createUser', {
+            const response = await fetch('https://projectapp-z66u.onrender.com/createUser', {
                 method: "POST",
                 headers: {
                     'Content-Type': "application/json",
