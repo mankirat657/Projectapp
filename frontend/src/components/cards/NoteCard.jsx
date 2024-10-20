@@ -18,7 +18,7 @@ const NoteCard = ({title,date,content,tags, isPinned,onPinNote}) => {
             tagging(tags)
         }
   return (
-    <div className='border border-gray-600 rounded mcard w-[30vw] p-4 bg-[#262e38] hover:shadow-xl transition-all ease-in-out'>
+    <div className='border border-gray-600 rounded mcard w-[30vw] p-4 bg-current hover:shadow-xl transition-all ease-in-out'>
         
         <div className="flex items-center justify-between">
             <div>

@@ -63,7 +63,7 @@ const Login = () => {
 
     return (
         <div className='flex items-center justify-center pt-10'>
-            <Toaster /> {/* Ensure toast notifications can be displayed */}
+            <Toaster /> 
             <form onSubmit={handleLogin} className='p-6 rounded shadow-md'>
                 <h4 className='text-2xl mb-3 border-b-2 pb-2 border-zinc-500'>Login</h4>
 
